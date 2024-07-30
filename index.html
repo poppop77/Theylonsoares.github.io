@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Site Simples com Blocos Coloridos</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@700&family=Poppins:ital,wght@1,900&display=swap" rel="stylesheet"> 
     <style>
         body {
             margin: 0;
@@ -77,6 +80,9 @@
         }
 
         .popup-content h2 {
+            font-family: "Poppins", sans-serif;
+            font-weight: 900;
+            font-style: italic;
             margin-top: 0;
         }
 
@@ -128,13 +134,16 @@
                 font-size: 16px;
             }
         }
+        .descrição_blc2{
+            text-align: left;
+        }
     </style>
 </head>
 <body>
     <div class="container">
         <div class="image-block"></div>
-        <a href="#popup1" class="block">Saúde</a>
-        <a href="#popup2" class="block">Bloco 2</a>
+        <a href="#popup1" class="block">SAÚDE</a>
+        <a href="#popup2" class="block">MISSÃO MULHER</a>
         <a href="#popup3" class="block">Bloco 3</a>
         <a href="#popup4" class="block">Bloco 4</a>
         <a href="#popup5" class="block">Bloco 5</a>
@@ -167,8 +176,13 @@
 
     <div id="popup2" class="popup">
         <div class="popup-content">
-            <h2>Texto do Bloco 2</h2>
-            <p>Descrição do Bloco 2</p>
+            <h2>MISSÃO MULHER</h2>
+            <p id="descrição_blc2"><p>1- Propor a criação de patrulhas especiais para monitorar e 
+                proteger mulheres em situação de risco. </p>
+                <p>2- Defender a expansão da rede pública de creches e escolas de 
+                educação infantil. </p>
+                <p>3- Incentivar creche em tempo integral. </p>
+                <p>4- Treinament para Identificação e ação em Casos de Violência contra a Mulher. </p></p>
             <div class="popup-buttons">
                 <a href="#popup1">Anterior</a>
                 <a href="#popup3">Próximo</a>
